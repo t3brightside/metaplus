@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels and descriptions for database tables/fields belonging to extension 'metaplus'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_metaplus.title">Meta Plus</label>
+			<label index="tx_metaplus.tab">Meta Plus</label>
+	
+			<label index="tx_metaplus_absolute.title">Absolute Page Title</label>		
+			<label index="tx_metaplus_absolute.description">Overrides whole page title.</label>
+		
+			<label index="tx_metaplus_prefix.title">Page Title Prefix</label>		
+			<label index="tx_metaplus_prefix.description">Appears before the page title on this and all of the sub pages.</label>
+	
+			<label index="tx_metaplus_sufix.title">Page Title Sufix</label>
+			<label index="tx_metaplus_sufix.description">Appears after the page title on this and all of the sub pages.</label>
+
+			<label index="tx_metaplus_ogimage.title">OpenGraph Image</label>
+		</languageKey>
+	</data>
+</T3locallang>
