@@ -3,7 +3,7 @@
   "description": "Control over page title prefix and sufix, OpenGraph image and Favicon.",
   "type": "typo3-cms-extension",
   "version": "0.0.2",
-  "keywords": ["TYPO3 CMS", "Template", "Design", "Fluid"],
+  "keywords": ["TYPO3", "SEO"],
   "homepage": "https://github.com/t3brightside/metaplus/",
   "license": "GPL-2.0+",
   "authors": [
