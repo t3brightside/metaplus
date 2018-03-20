@@ -3,11 +3,11 @@ Meta Plus
 
 **TYPO3 CMS extension that adds functions to minipulate:**
 
-- page title prefix
-- page title suffix
 - absolute page title
-- favicon
+- page title suffix
+- page title prefix
 - OpenGraph image
+- favicon
 
 Installation
 ------------
@@ -17,7 +17,7 @@ Installation
 Usage
 -----
 
-Edit page properties, new fields appear in “Meta” tab.
+Edit page properties, new fields appear in “Metadata” tab in "Meta Plus" section.
 
 Sources
 -------

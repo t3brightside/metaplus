@@ -12,9 +12,9 @@
 
 $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Meta Plus',
-	'description' => 'Control over page title prefix and sufix, OpenGraph image and Favicon.',
+	'description' => 'Control over page title prefix and suffix, OpenGraph image and Favicon.',
 	'category' => 'fe',
-	'version' => '0.0.2',
+	'version' => '0.0.3',
 	'state' => 'stable',
 	'uploadfolder' => false,
 	'createDirs' => '',
