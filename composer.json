@@ -2,7 +2,7 @@
   "name": "t3brightside/metaplus",
   "description": "TYPO3 CMS extension to control page title prefix and suffix, OpenGraph image and Favicon.",
   "type": "typo3-cms-extension",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "keywords": ["TYPO3", "SEO"],
   "homepage": "https://github.com/t3brightside/metaplus/",
   "license": "GPL-2.0+",
@@ -15,7 +15,7 @@
       }
   ],
   "require": {
-    "typo3/cms-core": ">=8.7.0,<9.0"
+    "typo3/cms-core": ">=8.7.0,<9.9.99"
   },
   "replace": {
     "metaplus": "self.version",

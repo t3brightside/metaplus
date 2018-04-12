@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Meta Plus',
 	'description' => 'Control over page title prefix and suffix, OpenGraph image and Favicon.',
 	'category' => 'fe',
-	'version' => '0.0.4',
+	'version' => '0.0.5',
 	'state' => 'stable',
 	'uploadfolder' => false,
 	'createDirs' => '',
@@ -22,16 +22,16 @@ $EM_CONF[$_EXTKEY] = array (
 	'author' => 'Tanel Põld',
 	'author_email' => 'tanel@brightside.ee',
 	'author_company' => 'Brightside OÜ / t3brightside.com',
-	'constraints' => 
+	'constraints' =>
 	array (
-		'depends' => 
+		'depends' =>
 		array (
-			'typo3' => '8.7.0 - 8.7.99',
+			'typo3' => '8.7.0 - 9.9.99',
 		),
-		'conflicts' => 
+		'conflicts' =>
 		array (
 		),
-		'suggests' => 
+		'suggests' =>
 		array (
 		),
 	),
