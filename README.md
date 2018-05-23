@@ -25,4 +25,4 @@ Edit page properties, new fields appear in “Metadata” tab in "Meta Plus" sec
 
 ## Development and maintenance
 
-[Brightside OÜ](https://t3brightside.com) – TYPO3 specialized web agency
+[Brightside OÜ](https://t3brightside.com) – TYPO3 development and hosting specialised web agency
