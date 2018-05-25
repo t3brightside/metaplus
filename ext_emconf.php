@@ -3,7 +3,7 @@
 		'title' => 'Meta Plus',
 		'description' => 'Control over page title prefix and suffix, OpenGraph image and Favicon.',
 		'category' => 'fe',
-		'version' => '0.0.5',
+		'version' => '0.0.6',
 		'state' => 'stable',
 		'uploadfolder' => false,
 		'createDirs' => '',
