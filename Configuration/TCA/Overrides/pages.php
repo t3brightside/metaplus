@@ -1,26 +1,26 @@
 <?php
 $tempColumns = array(
-	'tx_metaplus_absolute' => array(		
-		'exclude' => 1,		
-		'label' => 'LLL:EXT:metaplus/Resources/Private/Language/locallang_db.xml:tx_metaplus_absolute.title',		
-		'config' => array(
-			'type' => 'input',	
-			'size' => '30',
-		)
-	),
-	'tx_metaplus_prefix' => array(		
+	'tx_metaplus_absolute' => array(
 		'exclude' => 1,
-		'label' => 'LLL:EXT:metaplus/Resources/Private/Language/locallang_db.xml:tx_metaplus_prefix.title',		
+		'label' => 'LLL:EXT:metaplus/Resources/Private/Language/locallang_db.xml:tx_metaplus_absolute.title',
 		'config' => array(
-			'type' => 'input',	
+			'type' => 'input',
 			'size' => '30',
 		)
 	),
-	'tx_metaplus_sufix' => array(		
-		'exclude' => 1,		
-		'label' => 'LLL:EXT:metaplus/Resources/Private/Language/locallang_db.xml:tx_metaplus_sufix.title',		
+	'tx_metaplus_prefix' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:metaplus/Resources/Private/Language/locallang_db.xml:tx_metaplus_prefix.title',
 		'config' => array(
-			'type' => 'input',	
+			'type' => 'input',
+			'size' => '30',
+		)
+	),
+	'tx_metaplus_sufix' => array(
+		'exclude' => 1,
+		'label' => 'LLL:EXT:metaplus/Resources/Private/Language/locallang_db.xml:tx_metaplus_sufix.title',
+		'config' => array(
+			'type' => 'input',
 			'size' => '30',
 		)
 	),
@@ -82,16 +82,25 @@ $tempColumns = array(
   '1,4,7,3',
   'after:lastUpdated'
 );
-
+$GLOBALS['TCA']['pages']['palettes']['metaplus']['showitem'] = '
+	tx_metaplus_absolute,
+	--linebreak--,
+	tx_metaplus_sufix,
+	--linebreak--,
+	tx_metaplus_prefix,
+	--linebreak--,
+	tx_metaplus_ogimage,
+	--linebreak--,
+	tx_metaplus_favicon
+';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('pages_language_overlay', $tempColumns, 1);
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
   'pages_language_overlay',
   '--palette--;Meta Plus;metaplus,',
   '1,4,7,3',
-  'after:lastUpdated'
+  'after:author_email'
 );
-
-$GLOBALS['TCA']['pages']['palettes']['metaplus']['showitem'] = '
+$GLOBALS['TCA']['pages_language_overlay']['palettes']['metaplus']['showitem'] = '
 	tx_metaplus_absolute,
 	--linebreak--,
 	tx_metaplus_sufix,
