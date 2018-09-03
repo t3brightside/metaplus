@@ -23,6 +23,9 @@ Edit page properties, new fields appear in “Metadata” tab in "Meta Plus" sec
 -  [Packagist](https://packagist.org/packages/t3brightside/metaplus)
 - [TER](https://extensions.typo3.org/extension/metaplus/)
 
-## Development and maintenance
+Development and maintenance
+---------------------------
 
-[Brightside OÜ](https://t3brightside.com) – TYPO3 development and hosting specialised web agency
+[Brightside OÜ – TYPO3 development and hosting specialised web agency][ab26eed2]
+
+  [ab26eed2]: https://t3brightside.com/ "TYPO3 development and hosting specialised web agency"
